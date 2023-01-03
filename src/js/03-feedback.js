@@ -24,8 +24,8 @@ function getItemsLs() {
     messageEl.value = dataFeedback.message || '';
 
     formData = {
-      email: dataFeedback.email,
-      message: dataFeedback.message,
+      email: dataFeedback.email || '',
+      message: dataFeedback.message || '',
     };
   }
 }
