@@ -12,7 +12,7 @@ const galleryItemsMarcup = galleryItems
   .map(
     ({ preview, original, description }) =>
       `
-  
+
       <a class="gallery__link" href="${original}">
         <img
           class="gallery__image"
@@ -21,7 +21,7 @@ const galleryItemsMarcup = galleryItems
           alt="${description}"
         />
       </a>
- 
+
     `
   )
   .join('');
