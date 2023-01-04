@@ -34,4 +34,5 @@ function onFormElSubmit(e) {
   e.preventDefault();
   e.target.reset();
   localStorage.removeItem('feedback-form-state');
+  formData = {};
 }
